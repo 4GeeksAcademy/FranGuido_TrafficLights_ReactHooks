@@ -10,3 +10,39 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+*{
+    border-color: blue;
+    border-style: dotted;
+}
+
+.container{
+    width: 130px;
+}
+.row{
+    height: 350px;
+    width: 130px;
+    padding-top: 15px;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    background: #011126;
+    
+}
+.light{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%; 
+}
+
+.redLight{
+    background: #F22613;
+}
+
+.yellowLight{
+    background: #F2BB16;
+}
+
+.greenLight{
+    background: #24A652;
+}
