@@ -28,14 +28,34 @@
     border-radius: 50%; 
 }
 
-.redLight{
+.red{
     background: #F22613;
 }
 
-.yellowLight{
+.yellow{
     background: #F2BB16;
 }
 
-.greenLight{
+.green{
     background: #24A652;
 }
+
+.glowRed{
+    -webkit-box-shadow:0px 0px 105px 9px rgba(252,100,86,0.9);
+    -moz-box-shadow: 0px 0px 105px 9px rgba(252,100,86,0.9);
+box-shadow: 0px 0px 105px 9px rgba(252,100,86,0.9);
+}
+
+.glowYellow{
+    -webkit-box-shadow:0px 0px 105px 9px rgba(252,221,128,0.9);
+    -moz-box-shadow: 0px 0px 105px 9px rgba(252,221,128,0.9);
+    box-shadow: 0px 0px 105px 9px rgba(252,221,128,0.9);
+}
+
+.glowGreen{
+    -webkit-box-shadow:0px 0px 105px 9px rgba(92,176,121,0.9);
+-moz-box-shadow: 0px 0px 105px 9px rgba(92,176,121,0.9);
+box-shadow: 0px 0px 105px 9px rgba(92,176,121,0.9);
+}
+
+
